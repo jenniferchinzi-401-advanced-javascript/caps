@@ -1,0 +1,31 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "Code Academy Parcel Service (CAPS)",
+  "main": "caps.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "faker": "^5.1.0",
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniferchinzi-401-advanced-javascript/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenniferchinzi-401-advanced-javascript/caps/issues"
+  },
+  "homepage": "https://github.com/jenniferchinzi-401-advanced-javascript/caps#readme"
+}
